@@ -1,0 +1,19 @@
+# Data and outputs are never committed: sources carry their own licences
+data/
+output/
+reports/
+*.rds
+*.RDS
+*.csv
+*.xlsx
+*.json
+
+# R session state and credentials
+.RData
+.Rhistory
+.Rproj.user/
+.Renviron
+*.Rproj
+
+# OS
+.DS_Store
